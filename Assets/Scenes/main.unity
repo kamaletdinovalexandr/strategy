@@ -335,6 +335,7 @@ GameObject:
   - component: {fileID: 1075713574}
   - component: {fileID: 1075713573}
   - component: {fileID: 1075713572}
+  - component: {fileID: 1075713576}
   m_Layer: 0
   m_Name: VelocityTrigger
   m_TagString: Untagged
@@ -378,7 +379,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 78230aaa950654cde881dd3dc98fa320, type: 3}
-  m_Color: {r: 1, g: 0, b: 0.6341171, a: 1}
+  m_Color: {r: 0.9147414, g: 1, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -440,12 +441,23 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1075713571}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.03, y: -1.68, z: 0}
+  m_LocalPosition: {x: -1.32, y: -3.66, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1075713576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1075713571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad536e306075e3842aceaef4f2a26ef3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1517178786
 GameObject:
   m_ObjectHideFlags: 0
